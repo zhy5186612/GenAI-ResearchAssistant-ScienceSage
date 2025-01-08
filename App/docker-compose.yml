@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  ssapp:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    container_name: ssAppDev_v1.0
+    ports:
+      - '8011:8011'
+    volumes:
+      - '/path_your_volume/ssData:/home/ssuser/ssData/'
+    env_file:
+      - your_envfile_name.env
+    restart: unless-stopped
+    # env_file:
+    #  - .env
