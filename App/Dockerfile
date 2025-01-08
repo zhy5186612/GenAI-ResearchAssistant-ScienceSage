@@ -14,8 +14,6 @@ EXPOSE 8011
 
 #### Build imge and Run the container as kguser
 RUN mkdir .streamlit
-COPY --chown=ssuser:ssuser mb-qs-pp-cuda07.na.pg.com.key .
-COPY --chown=ssuser:ssuser mb-qs-pp-cuda07.na.pg.com.crt .
 COPY --chown=ssuser:ssuser .streamlit/config.toml .streamlit
 COPY --chown=ssuser:ssuser requirements.txt .
 COPY --chown=ssuser:ssuser utils.py .
