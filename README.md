@@ -32,6 +32,10 @@ docker-compose build
 
 docker-compose up -d
 
+- Evaluate the RAG component:
+
+Please use the notebook and data in RAGEvaluation folder to evaluate different RAGs. You will need to setup your own LLMs and likley databases if needed.
+
 ## Unique Advantages 
 - (1) **Latest Information:** Knowledge from ChatPG/ChatGPT/BingChat/Gemini generally has a cutoff time for obtaining the training data. If some information comes out after 
     the cutoff time of traiming these LLMs, they will **NOT** be used to generate a answer. **ScienceSage** is a live agent, it will always search the internet 
