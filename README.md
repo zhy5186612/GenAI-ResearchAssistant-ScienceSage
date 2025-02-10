@@ -77,3 +77,9 @@ Please use the notebook and data in RAGEvaluation folder to evaluate different R
 - Please create an issue if you have questions.
 
 ## Citation
+@article{zhang2025build,
+  title={Build Your Knowledge Base Using GenAI Powered ScienceSage},
+  author={Zhang, Yong and Gyamfi, Eric Herrison and Anderson, Kelly and Roberts, Sasha and Barker, Matt},
+  journal={ResearchGate preprint DOI: 10.13140/RG.2.2.24050.21444},
+  year={2025}
+}
