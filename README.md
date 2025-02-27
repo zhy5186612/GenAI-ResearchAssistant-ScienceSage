@@ -80,10 +80,13 @@ Please use the notebook and data in RAGEvaluation folder to evaluate different R
 Please cite our paper if you use this code or part of it in your work:
 
 ```bibtex
-@article{zhang2025build,
-  title={Build Your Knowledge Base Using GenAI Powered ScienceSage},
-  author={Zhang, Yong and Gyamfi, Eric Herrison and Anderson, Kelly and Roberts, Sasha and Barker, Matt},
-  journal={ResearchGate preprint DOI: 10.13140/RG.2.2.24050.21444},
-  year={2025}
+@misc{zhang2025disruptresearchusinggenerative,
+      title={Disrupt Your Research Using Generative AI Powered ScienceSage}, 
+      author={Yong Zhang and Eric Herrison Gyamfi and Kelly Anderson and Sasha Roberts and Matt Barker},
+      year={2025},
+      eprint={2502.18479},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2502.18479}, 
 }
 ```
